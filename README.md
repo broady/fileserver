@@ -1,5 +1,10 @@
 A simple file server.
 
-go run github.com/broady/fileserver :9999 .
+```
+GO111MODULE=on go get github.com/broady/fileserver
+fileserver :9999 .
+```
 
-docker run -p 9090:9090 -v $PWD:$PWD --rm ghcr.io/broady/fileserver :9090 $PWD
+```
+docker run -p 9999:9999 -v $PWD:$PWD --rm ghcr.io/broady/fileserver :9999 $PWD
+```
