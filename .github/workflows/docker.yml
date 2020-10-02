@@ -15,5 +15,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: broady/fileserver
+          repository: broady/fileserver/fileserver
           tag_with_ref: true
